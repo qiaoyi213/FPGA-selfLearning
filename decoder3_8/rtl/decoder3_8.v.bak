@@ -1,0 +1,20 @@
+module decoder3_8 (
+    input wire in1,
+    input wire in2,
+    input wire in3,
+    output reg [7:0] out
+);
+
+always@(*)
+    case({in1,in2,in3})
+        3b'000 : out = 8'b0000_0001;
+        3b'001 : out = 8'b0000_0010;
+        3b'010 : out = 8'b0000_0100;
+        3b'011 : out = 8'b0000_1000;
+        3b'100 : out = 8'b0001_0000;
+        3b'101 : out = 8'b0010_0000;
+        3b'110 : out = 8'b0100_0000;
+        3b'111 : out = 8'b1000_0000;
+        defaule: out = 8'b0000_0001;
+    endcase
+endmodule
