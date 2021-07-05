@@ -1,0 +1,145 @@
+# do full_adder_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying D:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA-selfLearning/full_adder/rtl {D:/FPGA-selfLearning/full_adder/rtl/half_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 11:02:04 on Jul 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA-selfLearning/full_adder/rtl" D:/FPGA-selfLearning/full_adder/rtl/half_adder.v 
+# -- Compiling module half_adder
+# 
+# Top level modules:
+# 	half_adder
+# End time: 11:02:05 on Jul 05,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/FPGA-selfLearning/full_adder/rtl {D:/FPGA-selfLearning/full_adder/rtl/full_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 11:02:05 on Jul 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA-selfLearning/full_adder/rtl" D:/FPGA-selfLearning/full_adder/rtl/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 11:02:05 on Jul 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA-selfLearning/full_adder/quartus_prj/../sim {D:/FPGA-selfLearning/full_adder/quartus_prj/../sim/tb_full_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 11:02:05 on Jul 05,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA-selfLearning/full_adder/quartus_prj/../sim" D:/FPGA-selfLearning/full_adder/quartus_prj/../sim/tb_full_adder.v 
+# -- Compiling module tb_full_adder
+# 
+# Top level modules:
+# 	tb_full_adder
+# End time: 11:02:05 on Jul 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_full_adder
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_full_adder 
+# Start time: 11:02:05 on Jul 05,2021
+# Loading work.tb_full_adder
+# Loading work.full_adder
+# Loading work.half_adder
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 us
+# @time    0ns:in1=0 in2=0 cin=0 sum=0 cout=0
+# @time   10ns:in1=0 in2=1 cin=1 sum=0 cout=1
+# @time   20ns:in1=1 in2=1 cin=1 sum=1 cout=1
+# @time   30ns:in1=1 in2=0 cin=1 sum=0 cout=1
+# @time   60ns:in1=0 in2=1 cin=0 sum=1 cout=0
+# @time   70ns:in1=1 in2=1 cin=0 sum=0 cout=1
+# @time   80ns:in1=1 in2=0 cin=0 sum=1 cout=0
+# @time   90ns:in1=0 in2=1 cin=0 sum=1 cout=0
+# @time  100ns:in1=1 in2=1 cin=1 sum=1 cout=1
+# @time  110ns:in1=1 in2=0 cin=0 sum=1 cout=0
+# @time  120ns:in1=0 in2=0 cin=1 sum=1 cout=0
+# @time  130ns:in1=0 in2=1 cin=1 sum=0 cout=1
+# @time  140ns:in1=1 in2=1 cin=1 sum=1 cout=1
+# @time  150ns:in1=0 in2=0 cin=1 sum=1 cout=0
+# @time  160ns:in1=1 in2=1 cin=0 sum=0 cout=1
+# @time  170ns:in1=0 in2=0 cin=0 sum=0 cout=0
+# @time  180ns:in1=0 in2=1 cin=0 sum=1 cout=0
+# @time  190ns:in1=0 in2=1 cin=1 sum=0 cout=1
+# @time  200ns:in1=0 in2=0 cin=0 sum=0 cout=0
+# @time  210ns:in1=0 in2=0 cin=1 sum=1 cout=0
+# @time  220ns:in1=1 in2=1 cin=1 sum=1 cout=1
+# @time  230ns:in1=1 in2=0 cin=0 sum=1 cout=0
+# @time  240ns:in1=1 in2=1 cin=1 sum=1 cout=1
+# @time  250ns:in1=0 in2=0 cin=1 sum=1 cout=0
+# @time  260ns:in1=1 in2=0 cin=1 sum=0 cout=1
+# @time  280ns:in1=1 in2=1 cin=0 sum=0 cout=1
+# @time  300ns:in1=0 in2=0 cin=0 sum=0 cout=0
+# @time  310ns:in1=1 in2=1 cin=0 sum=0 cout=1
+# @time  320ns:in1=0 in2=1 cin=1 sum=0 cout=1
+# @time  330ns:in1=1 in2=1 cin=1 sum=1 cout=1
+# @time  340ns:in1=0 in2=1 cin=1 sum=0 cout=1
+# @time  350ns:in1=1 in2=0 cin=0 sum=1 cout=0
+# @time  360ns:in1=0 in2=0 cin=0 sum=0 cout=0
+# @time  370ns:in1=0 in2=0 cin=1 sum=1 cout=0
+# @time  380ns:in1=1 in2=1 cin=1 sum=1 cout=1
+# @time  390ns:in1=1 in2=0 cin=1 sum=0 cout=1
+# @time  400ns:in1=1 in2=0 cin=0 sum=1 cout=0
+# @time  410ns:in1=1 in2=1 cin=0 sum=0 cout=1
+# @time  420ns:in1=1 in2=1 cin=1 sum=1 cout=1
+# @time  430ns:in1=1 in2=0 cin=0 sum=1 cout=0
+# @time  440ns:in1=0 in2=1 cin=0 sum=1 cout=0
+# @time  450ns:in1=0 in2=0 cin=1 sum=1 cout=0
+# @time  460ns:in1=1 in2=0 cin=0 sum=1 cout=0
+# @time  480ns:in1=0 in2=1 cin=0 sum=1 cout=0
+# @time  500ns:in1=1 in2=1 cin=1 sum=1 cout=1
+# @time  510ns:in1=1 in2=1 cin=0 sum=0 cout=1
+# @time  520ns:in1=0 in2=0 cin=1 sum=1 cout=0
+# @time  540ns:in1=1 in2=0 cin=0 sum=1 cout=0
+# @time  550ns:in1=0 in2=1 cin=1 sum=0 cout=1
+# @time  560ns:in1=0 in2=0 cin=0 sum=0 cout=0
+# @time  570ns:in1=1 in2=1 cin=0 sum=0 cout=1
+# @time  580ns:in1=0 in2=0 cin=1 sum=1 cout=0
+# @time  600ns:in1=0 in2=0 cin=0 sum=0 cout=0
+# @time  610ns:in1=1 in2=0 cin=1 sum=0 cout=1
+# @time  620ns:in1=1 in2=0 cin=0 sum=1 cout=0
+# @time  630ns:in1=0 in2=0 cin=1 sum=1 cout=0
+# @time  640ns:in1=0 in2=0 cin=0 sum=0 cout=0
+# @time  650ns:in1=0 in2=1 cin=1 sum=0 cout=1
+# @time  660ns:in1=1 in2=0 cin=1 sum=0 cout=1
+# @time  670ns:in1=1 in2=1 cin=0 sum=0 cout=1
+# @time  680ns:in1=0 in2=1 cin=1 sum=0 cout=1
+# @time  690ns:in1=1 in2=1 cin=1 sum=1 cout=1
+# @time  700ns:in1=0 in2=1 cin=1 sum=0 cout=1
+# @time  710ns:in1=0 in2=0 cin=0 sum=0 cout=0
+# @time  720ns:in1=0 in2=1 cin=1 sum=0 cout=1
+# @time  730ns:in1=0 in2=0 cin=1 sum=1 cout=0
+# @time  770ns:in1=1 in2=1 cin=0 sum=0 cout=1
+# @time  780ns:in1=0 in2=0 cin=1 sum=1 cout=0
+# @time  800ns:in1=0 in2=0 cin=0 sum=0 cout=0
+# @time  810ns:in1=0 in2=1 cin=0 sum=1 cout=0
+# @time  820ns:in1=0 in2=0 cin=1 sum=1 cout=0
+# @time  830ns:in1=1 in2=0 cin=1 sum=0 cout=1
+# @time  840ns:in1=1 in2=1 cin=1 sum=1 cout=1
+# @time  850ns:in1=0 in2=1 cin=1 sum=0 cout=1
+# @time  860ns:in1=1 in2=0 cin=0 sum=1 cout=0
+# @time  880ns:in1=1 in2=1 cin=0 sum=0 cout=1
+# @time  890ns:in1=0 in2=1 cin=0 sum=1 cout=0
+# @time  910ns:in1=1 in2=1 cin=0 sum=0 cout=1
+# @time  920ns:in1=1 in2=0 cin=1 sum=0 cout=1
+# @time  930ns:in1=0 in2=0 cin=1 sum=1 cout=0
+# @time  940ns:in1=0 in2=0 cin=0 sum=0 cout=0
+# @time  950ns:in1=1 in2=1 cin=1 sum=1 cout=1
+# @time  960ns:in1=1 in2=1 cin=0 sum=0 cout=1
+# @time  970ns:in1=1 in2=1 cin=1 sum=1 cout=1
+# @time  980ns:in1=0 in2=0 cin=0 sum=0 cout=0
+# End time: 11:02:56 on Jul 05,2021, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 0
