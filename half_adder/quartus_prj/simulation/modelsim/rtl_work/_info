@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA-selfLearning/half_adder/quartus_prj/simulation/modelsim
+vhalf_adder
+Z1 !s110 1625449873
+!i10b 1
+!s100 BB`?ZAiZ59WDM2;JV5e]A0
+IK_FO5F[m517aHKoQ;oF;?0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1625448784
+8D:/FPGA-selfLearning/half_adder/rtl/half_adder.v
+FD:/FPGA-selfLearning/half_adder/rtl/half_adder.v
+L0 1
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1625449873.000000
+!s107 D:/FPGA-selfLearning/half_adder/rtl/half_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA-selfLearning/half_adder/rtl|D:/FPGA-selfLearning/half_adder/rtl/half_adder.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/FPGA-selfLearning/half_adder/rtl
+vtb_half_adder
+R1
+!i10b 1
+!s100 o?SBzXE@ECn1`O?R0=`k13
+Ie8HnfdZ`PFa;=iD8gEkh>3
+R2
+R0
+w1625449833
+8D:/FPGA-selfLearning/half_adder/quartus_prj/../sim/tb_half_adder.v
+FD:/FPGA-selfLearning/half_adder/quartus_prj/../sim/tb_half_adder.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/FPGA-selfLearning/half_adder/quartus_prj/../sim/tb_half_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA-selfLearning/half_adder/quartus_prj/../sim|D:/FPGA-selfLearning/half_adder/quartus_prj/../sim/tb_half_adder.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+D:/FPGA-selfLearning/half_adder/quartus_prj/../sim
