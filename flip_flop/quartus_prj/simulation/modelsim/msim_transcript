@@ -1,0 +1,85 @@
+# do flip_flop_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying D:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA-selfLearning/flip_flop/rtl {D:/FPGA-selfLearning/flip_flop/rtl/flip_flop.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 11:37:39 on Jul 06,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA-selfLearning/flip_flop/rtl" D:/FPGA-selfLearning/flip_flop/rtl/flip_flop.v 
+# -- Compiling module flip_flop
+# 
+# Top level modules:
+# 	flip_flop
+# End time: 11:37:39 on Jul 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA-selfLearning/flip_flop/quartus_prj/../sim {D:/FPGA-selfLearning/flip_flop/quartus_prj/../sim/tb_flip_flop.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 11:37:39 on Jul 06,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA-selfLearning/flip_flop/quartus_prj/../sim" D:/FPGA-selfLearning/flip_flop/quartus_prj/../sim/tb_flip_flop.v 
+# -- Compiling module tb_flip_flop
+# 
+# Top level modules:
+# 	tb_flip_flop
+# End time: 11:37:39 on Jul 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_flip_flop
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_flip_flop 
+# Start time: 11:37:39 on Jul 06,2021
+# Loading work.tb_flip_flop
+# Loading work.flip_flop
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 us
+# @time:   0ns: key_in=0 led_out=x
+# @time:  20ns: key_in=0 led_out=0
+# @time:  40ns: key_in=1 led_out=0
+# @time:  60ns: key_in=1 led_out=1
+# @time: 160ns: key_in=0 led_out=1
+# @time: 180ns: key_in=1 led_out=0
+# @time: 200ns: key_in=1 led_out=1
+# @time: 220ns: key_in=0 led_out=1
+# @time: 240ns: key_in=1 led_out=0
+# @time: 280ns: key_in=0 led_out=1
+# @time: 300ns: key_in=1 led_out=0
+# @time: 320ns: key_in=0 led_out=1
+# @time: 340ns: key_in=1 led_out=0
+# @time: 360ns: key_in=0 led_out=1
+# @time: 380ns: key_in=1 led_out=0
+# @time: 400ns: key_in=1 led_out=1
+# @time: 420ns: key_in=0 led_out=1
+# @time: 440ns: key_in=1 led_out=0
+# @time: 460ns: key_in=0 led_out=1
+# @time: 480ns: key_in=0 led_out=0
+# @time: 520ns: key_in=1 led_out=0
+# @time: 540ns: key_in=0 led_out=1
+# @time: 560ns: key_in=1 led_out=0
+# @time: 580ns: key_in=1 led_out=1
+# @time: 640ns: key_in=0 led_out=1
+# @time: 660ns: key_in=0 led_out=0
+# @time: 720ns: key_in=1 led_out=0
+# @time: 740ns: key_in=0 led_out=1
+# @time: 760ns: key_in=1 led_out=0
+# @time: 780ns: key_in=1 led_out=1
+# @time: 860ns: key_in=0 led_out=1
+# @time: 880ns: key_in=0 led_out=0
+# @time: 900ns: key_in=1 led_out=0
+# @time: 920ns: key_in=1 led_out=1
+# @time: 960ns: key_in=0 led_out=1
+# @time: 980ns: key_in=0 led_out=0
+# End time: 11:40:00 on Jul 06,2021, Elapsed time: 0:02:21
+# Errors: 0, Warnings: 0

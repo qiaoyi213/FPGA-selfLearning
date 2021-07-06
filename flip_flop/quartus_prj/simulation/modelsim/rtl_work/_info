@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA-selfLearning/flip_flop/quartus_prj/simulation/modelsim
+vflip_flop
+Z1 !s110 1625542659
+!i10b 1
+!s100 8kYNZW@7dzT45=dMIb1Rd0
+I<AU3EeWQmL?di1UA``9zb0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1625542210
+8D:/FPGA-selfLearning/flip_flop/rtl/flip_flop.v
+FD:/FPGA-selfLearning/flip_flop/rtl/flip_flop.v
+L0 1
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1625542659.000000
+!s107 D:/FPGA-selfLearning/flip_flop/rtl/flip_flop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA-selfLearning/flip_flop/rtl|D:/FPGA-selfLearning/flip_flop/rtl/flip_flop.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/FPGA-selfLearning/flip_flop/rtl
+vtb_flip_flop
+R1
+!i10b 1
+!s100 D5QFD9OCbIi??a=aY?Fz80
+InhI1i;BK<@PP5_0ebEHI`1
+R2
+R0
+w1625542585
+8D:/FPGA-selfLearning/flip_flop/quartus_prj/../sim/tb_flip_flop.v
+FD:/FPGA-selfLearning/flip_flop/quartus_prj/../sim/tb_flip_flop.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/FPGA-selfLearning/flip_flop/quartus_prj/../sim/tb_flip_flop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA-selfLearning/flip_flop/quartus_prj/../sim|D:/FPGA-selfLearning/flip_flop/quartus_prj/../sim/tb_flip_flop.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+D:/FPGA-selfLearning/flip_flop/quartus_prj/../sim
