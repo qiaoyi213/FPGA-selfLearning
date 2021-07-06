@@ -1,0 +1,49 @@
+# do counter_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying D:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA-selfLearning/counter/rtl {D:/FPGA-selfLearning/counter/rtl/sign_counter.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 20:49:57 on Jul 06,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA-selfLearning/counter/rtl" D:/FPGA-selfLearning/counter/rtl/sign_counter.v 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 20:49:57 on Jul 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA-selfLearning/counter/quartus_prj/../sim {D:/FPGA-selfLearning/counter/quartus_prj/../sim/tb_counter.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 20:49:58 on Jul 06,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA-selfLearning/counter/quartus_prj/../sim" D:/FPGA-selfLearning/counter/quartus_prj/../sim/tb_counter.v 
+# -- Compiling module tb_counter
+# 
+# Top level modules:
+# 	tb_counter
+# End time: 20:49:58 on Jul 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_counter
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_counter 
+# Start time: 20:49:58 on Jul 06,2021
+# Loading work.tb_counter
+# Loading work.counter
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 us
+# End time: 20:50:21 on Jul 06,2021, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 0
