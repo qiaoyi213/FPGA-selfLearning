@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Jul 07 23:18:22 2021
+Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Standard Edition
+Revision Name : key_filter
+Top-level Entity Name : key_filter
+Family : Cyclone IV E
+Total logic elements : 28
+    Total combinational functions : 28
+    Dedicated logic registers : 21
+Total registers : 21
+Total pins : 4
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

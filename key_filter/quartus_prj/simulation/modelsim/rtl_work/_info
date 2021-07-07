@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA-selfLearning/key_filter/quartus_prj/simulation/modelsim
+vkey_filter
+Z1 !s110 1625671172
+!i10b 1
+!s100 oK1G5`8CK^nVGkTXk3Y>f0
+Ih0FCR=bL`5K8WmCb^OBU51
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1625670041
+8D:/FPGA-selfLearning/key_filter/rtl/key_filter.v
+FD:/FPGA-selfLearning/key_filter/rtl/key_filter.v
+L0 1
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+!s108 1625671171.000000
+!s107 D:/FPGA-selfLearning/key_filter/rtl/key_filter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA-selfLearning/key_filter/rtl|D:/FPGA-selfLearning/key_filter/rtl/key_filter.v|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/FPGA-selfLearning/key_filter/rtl
+vtb_key_filter
+R1
+!i10b 1
+!s100 fzzPA`mdbibhWj>TleF3h1
+IR?>OInl83z:@FIn_dCYDh2
+R2
+R0
+w1625671080
+8D:/FPGA-selfLearning/key_filter/quartus_prj/../sim/tb_key_filter.v
+FD:/FPGA-selfLearning/key_filter/quartus_prj/../sim/tb_key_filter.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1625671172.000000
+!s107 D:/FPGA-selfLearning/key_filter/quartus_prj/../sim/tb_key_filter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA-selfLearning/key_filter/quartus_prj/../sim|D:/FPGA-selfLearning/key_filter/quartus_prj/../sim/tb_key_filter.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+D:/FPGA-selfLearning/key_filter/quartus_prj/../sim
