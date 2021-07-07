@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA-selfLearning/divider_six/quartus_prj/simulation/modelsim
+vdivider_six
+Z1 !s110 1625579760
+!i10b 1
+!s100 UWTLcDZIL3OBH=43igW^@3
+I?<Jm7TjEjL6z>D8n><[3>1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1625578969
+8D:/FPGA-selfLearning/divider_six/rtl/divider_six.v
+FD:/FPGA-selfLearning/divider_six/rtl/divider_six.v
+L0 1
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1625579760.000000
+!s107 D:/FPGA-selfLearning/divider_six/rtl/divider_six.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA-selfLearning/divider_six/rtl|D:/FPGA-selfLearning/divider_six/rtl/divider_six.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/FPGA-selfLearning/divider_six/rtl
+vtb_divider_six
+R1
+!i10b 1
+!s100 DGAH:Ezh:WOTdL:]:27:H2
+IhcVC==Im]Zgf]_5aC<O2i3
+R2
+R0
+w1625579632
+8D:/FPGA-selfLearning/divider_six/quartus_prj/../sim/tb_divider_six.v
+FD:/FPGA-selfLearning/divider_six/quartus_prj/../sim/tb_divider_six.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/FPGA-selfLearning/divider_six/quartus_prj/../sim/tb_divider_six.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA-selfLearning/divider_six/quartus_prj/../sim|D:/FPGA-selfLearning/divider_six/quartus_prj/../sim/tb_divider_six.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+D:/FPGA-selfLearning/divider_six/quartus_prj/../sim
