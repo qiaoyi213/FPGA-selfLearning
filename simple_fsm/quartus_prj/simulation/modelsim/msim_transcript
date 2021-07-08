@@ -1,0 +1,92 @@
+# do simple_fsm_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying D:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA-selfLearning/simple_fsm/rtl {D:/FPGA-selfLearning/simple_fsm/rtl/simple_fsm.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:10:18 on Jul 08,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA-selfLearning/simple_fsm/rtl" D:/FPGA-selfLearning/simple_fsm/rtl/simple_fsm.v 
+# -- Compiling module simple_fsm
+# 
+# Top level modules:
+# 	simple_fsm
+# End time: 17:10:18 on Jul 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA-selfLearning/simple_fsm/quartus_prj/../sim {D:/FPGA-selfLearning/simple_fsm/quartus_prj/../sim/tb_simple_fsm.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:10:18 on Jul 08,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA-selfLearning/simple_fsm/quartus_prj/../sim" D:/FPGA-selfLearning/simple_fsm/quartus_prj/../sim/tb_simple_fsm.v 
+# -- Compiling module tb_simple_fsm
+# 
+# Top level modules:
+# 	tb_simple_fsm
+# End time: 17:10:18 on Jul 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_simple_fsm
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_simple_fsm 
+# Start time: 17:10:18 on Jul 08,2021
+# Loading work.tb_simple_fsm
+# Loading work.simple_fsm
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 us
+# @time    0ns: pi_money=0 state=001 po_cola=0
+# @time   60ns: pi_money=1 state=001 po_cola=0
+# @time   80ns: pi_money=1 state=010 po_cola=0
+# @time  100ns: pi_money=1 state=100 po_cola=0
+# @time  120ns: pi_money=1 state=001 po_cola=1
+# @time  140ns: pi_money=1 state=010 po_cola=0
+# @time  160ns: pi_money=1 state=100 po_cola=0
+# @time  180ns: pi_money=0 state=001 po_cola=1
+# @time  200ns: pi_money=1 state=001 po_cola=0
+# @time  220ns: pi_money=1 state=010 po_cola=0
+# @time  240ns: pi_money=0 state=100 po_cola=0
+# @time  260ns: pi_money=1 state=100 po_cola=0
+# @time  280ns: pi_money=1 state=001 po_cola=1
+# @time  300ns: pi_money=0 state=010 po_cola=0
+# @time  320ns: pi_money=1 state=010 po_cola=0
+# @time  340ns: pi_money=0 state=100 po_cola=0
+# @time  360ns: pi_money=1 state=100 po_cola=0
+# @time  380ns: pi_money=0 state=001 po_cola=1
+# @time  400ns: pi_money=1 state=001 po_cola=0
+# @time  420ns: pi_money=1 state=010 po_cola=0
+# @time  440ns: pi_money=0 state=100 po_cola=0
+# @time  460ns: pi_money=1 state=100 po_cola=0
+# @time  480ns: pi_money=0 state=001 po_cola=1
+# @time  500ns: pi_money=0 state=001 po_cola=0
+# @time  540ns: pi_money=1 state=001 po_cola=0
+# @time  560ns: pi_money=0 state=010 po_cola=0
+# @time  580ns: pi_money=1 state=010 po_cola=0
+# @time  600ns: pi_money=1 state=100 po_cola=0
+# @time  620ns: pi_money=1 state=001 po_cola=1
+# @time  640ns: pi_money=1 state=010 po_cola=0
+# @time  660ns: pi_money=0 state=100 po_cola=0
+# @time  740ns: pi_money=1 state=100 po_cola=0
+# @time  760ns: pi_money=0 state=001 po_cola=1
+# @time  780ns: pi_money=1 state=001 po_cola=0
+# @time  800ns: pi_money=1 state=010 po_cola=0
+# @time  820ns: pi_money=1 state=100 po_cola=0
+# @time  840ns: pi_money=1 state=001 po_cola=1
+# @time  860ns: pi_money=1 state=010 po_cola=0
+# @time  880ns: pi_money=0 state=100 po_cola=0
+# @time  920ns: pi_money=1 state=100 po_cola=0
+# @time  940ns: pi_money=1 state=001 po_cola=1
+# @time  960ns: pi_money=1 state=010 po_cola=0
+# @time  980ns: pi_money=0 state=100 po_cola=0
+# End time: 17:10:36 on Jul 08,2021, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0
