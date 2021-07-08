@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA-selfLearning/water_led/quartus_prj/simulation/modelsim
+vtb_water_led
+Z1 !s110 1625710492
+!i10b 1
+!s100 fE7D[ONokfMP8IgR^]7]f2
+I5e@Fd2O]6FneIMAokWBE01
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1625709313
+8D:/FPGA-selfLearning/water_led/quartus_prj/../sim/tb_water_led.v
+FD:/FPGA-selfLearning/water_led/quartus_prj/../sim/tb_water_led.v
+L0 2
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1625710492.000000
+!s107 D:/FPGA-selfLearning/water_led/quartus_prj/../sim/tb_water_led.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA-selfLearning/water_led/quartus_prj/../sim|D:/FPGA-selfLearning/water_led/quartus_prj/../sim/tb_water_led.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/FPGA-selfLearning/water_led/quartus_prj/../sim
+vwater_led
+R1
+!i10b 1
+!s100 b5mbX@N:Q8Dcag_Ao5UAJ3
+Ilh4Fza8:R4:glJU13CWEi2
+R2
+R0
+w1625710310
+8D:/FPGA-selfLearning/water_led/rtl/water_led.v
+FD:/FPGA-selfLearning/water_led/rtl/water_led.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/FPGA-selfLearning/water_led/rtl/water_led.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA-selfLearning/water_led/rtl|D:/FPGA-selfLearning/water_led/rtl/water_led.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+D:/FPGA-selfLearning/water_led/rtl
