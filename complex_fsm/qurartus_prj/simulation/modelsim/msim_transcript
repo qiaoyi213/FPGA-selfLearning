@@ -1,0 +1,75 @@
+# do comple_fsm_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying D:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA-selfLearning/complex_fsm/rtl {D:/FPGA-selfLearning/complex_fsm/rtl/complex_fsm.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:45:17 on Jul 08,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA-selfLearning/complex_fsm/rtl" D:/FPGA-selfLearning/complex_fsm/rtl/complex_fsm.v 
+# -- Compiling module complex_fsm
+# 
+# Top level modules:
+# 	complex_fsm
+# End time: 17:45:17 on Jul 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA-selfLearning/complex_fsm/qurartus_prj/../sim {D:/FPGA-selfLearning/complex_fsm/qurartus_prj/../sim/tb_complex_fsm.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:45:17 on Jul 08,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA-selfLearning/complex_fsm/qurartus_prj/../sim" D:/FPGA-selfLearning/complex_fsm/qurartus_prj/../sim/tb_complex_fsm.v 
+# -- Compiling module tb_complex_fsm
+# 
+# Top level modules:
+# 	tb_complex_fsm
+# End time: 17:45:17 on Jul 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_complex_fsm
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_complex_fsm 
+# Start time: 17:45:17 on Jul 08,2021
+# Loading work.tb_complex_fsm
+# Loading work.complex_fsm
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 us
+# @time    0ns: pi_money_one=0 pi_money_half=0 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time   40ns: pi_money_one=0 pi_money_half=1 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time   60ns: pi_money_one=1 pi_money_half=0 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  180ns: pi_money_one=0 pi_money_half=1 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  200ns: pi_money_one=1 pi_money_half=0 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  240ns: pi_money_one=0 pi_money_half=1 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  260ns: pi_money_one=1 pi_money_half=0 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  300ns: pi_money_one=0 pi_money_half=1 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  320ns: pi_money_one=1 pi_money_half=0 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  340ns: pi_money_one=0 pi_money_half=1 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  360ns: pi_money_one=1 pi_money_half=0 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  380ns: pi_money_one=0 pi_money_half=1 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  400ns: pi_money_one=1 pi_money_half=0 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  440ns: pi_money_one=0 pi_money_half=1 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  460ns: pi_money_one=1 pi_money_half=0 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  480ns: pi_money_one=0 pi_money_half=1 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  540ns: pi_money_one=1 pi_money_half=0 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  560ns: pi_money_one=0 pi_money_half=1 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  580ns: pi_money_one=1 pi_money_half=0 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  660ns: pi_money_one=0 pi_money_half=1 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  740ns: pi_money_one=1 pi_money_half=0 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  760ns: pi_money_one=0 pi_money_half=1 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  780ns: pi_money_one=1 pi_money_half=0 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  880ns: pi_money_one=0 pi_money_half=1 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  920ns: pi_money_one=1 pi_money_half=0 pi_money=zz state=00001 po_cola=0 po_money=0
+# @time  980ns: pi_money_one=0 pi_money_half=1 pi_money=zz state=00001 po_cola=0 po_money=0
+# End time: 17:46:08 on Jul 08,2021, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 0

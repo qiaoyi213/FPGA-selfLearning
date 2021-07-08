@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA-selfLearning/complex_fsm/qurartus_prj/simulation/modelsim
+vcomplex_fsm
+Z1 !s110 1625737517
+!i10b 1
+!s100 Aj^6Pfe^;U?dnn6@XXiJ62
+I_GF_P[^M[0M[FbeAZcEkR3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1625737332
+8D:/FPGA-selfLearning/complex_fsm/rtl/complex_fsm.v
+FD:/FPGA-selfLearning/complex_fsm/rtl/complex_fsm.v
+L0 1
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1625737517.000000
+!s107 D:/FPGA-selfLearning/complex_fsm/rtl/complex_fsm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA-selfLearning/complex_fsm/rtl|D:/FPGA-selfLearning/complex_fsm/rtl/complex_fsm.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/FPGA-selfLearning/complex_fsm/rtl
+vtb_complex_fsm
+R1
+!i10b 1
+!s100 NkU7omVS]I=J5aKQHfkd61
+I8aGf9d=0cKbX>^dbzP:O:1
+R2
+R0
+w1625737186
+8D:/FPGA-selfLearning/complex_fsm/qurartus_prj/../sim/tb_complex_fsm.v
+FD:/FPGA-selfLearning/complex_fsm/qurartus_prj/../sim/tb_complex_fsm.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/FPGA-selfLearning/complex_fsm/qurartus_prj/../sim/tb_complex_fsm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA-selfLearning/complex_fsm/qurartus_prj/../sim|D:/FPGA-selfLearning/complex_fsm/qurartus_prj/../sim/tb_complex_fsm.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+D:/FPGA-selfLearning/complex_fsm/qurartus_prj/../sim
