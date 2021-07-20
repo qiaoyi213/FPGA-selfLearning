@@ -1,0 +1,157 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA-selfLearning/top_seg_595/quartus_prj/simulation/modelsim
+vbcd_8421
+Z1 !s110 1626717303
+!i10b 1
+!s100 88>`]A20VnS;=KfR[]AM03
+IUg_V?6cHS0_GAaY2lGQBm2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1626715235
+8D:/FPGA-selfLearning/top_seg_595/rtl/bcd_8421.v
+FD:/FPGA-selfLearning/top_seg_595/rtl/bcd_8421.v
+L0 1
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1626717303.000000
+!s107 D:/FPGA-selfLearning/top_seg_595/rtl/bcd_8421.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA-selfLearning/top_seg_595/rtl|D:/FPGA-selfLearning/top_seg_595/rtl/bcd_8421.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/FPGA-selfLearning/top_seg_595/rtl
+vdata_gen
+R1
+!i10b 1
+!s100 3>TM5>jojOKFK4Um;0jd11
+IU@o?oZfD?nGD^>940FC1;3
+R2
+R0
+w1626715827
+8D:/FPGA-selfLearning/top_seg_595/rtl/data_gen.v
+FD:/FPGA-selfLearning/top_seg_595/rtl/data_gen.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/FPGA-selfLearning/top_seg_595/rtl/data_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA-selfLearning/top_seg_595/rtl|D:/FPGA-selfLearning/top_seg_595/rtl/data_gen.v|
+!i113 1
+R5
+R6
+vhc595_ctrl
+Z7 !s110 1626717302
+!i10b 1
+!s100 N63cbobXF9?8<=@@=8VjF2
+ILV6AZ_3Phln<2G2@NX^<J0
+R2
+R0
+w1626715524
+8D:/FPGA-selfLearning/top_seg_595/rtl/hc595_ctrl.v
+FD:/FPGA-selfLearning/top_seg_595/rtl/hc595_ctrl.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1626717302.000000
+!s107 D:/FPGA-selfLearning/top_seg_595/rtl/hc595_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA-selfLearning/top_seg_595/rtl|D:/FPGA-selfLearning/top_seg_595/rtl/hc595_ctrl.v|
+!i113 1
+R5
+R6
+vseg_595_dynamic
+R7
+!i10b 1
+!s100 Sg?kmGhJ6d]gOVH97Jb>`1
+IL:T]ZN@GODFQ@SWjM]mN?2
+R2
+R0
+w1626714517
+8D:/FPGA-selfLearning/top_seg_595/rtl/seg_595_dynamic.v
+FD:/FPGA-selfLearning/top_seg_595/rtl/seg_595_dynamic.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/FPGA-selfLearning/top_seg_595/rtl/seg_595_dynamic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA-selfLearning/top_seg_595/rtl|D:/FPGA-selfLearning/top_seg_595/rtl/seg_595_dynamic.v|
+!i113 1
+R5
+R6
+vseg_dynamic
+R7
+!i10b 1
+!s100 Xc<Sm1;?QQQ><c2Z@<KGj2
+IV;:2]_DQMcPaPVC@5?Y>a0
+R2
+R0
+w1626716230
+8D:/FPGA-selfLearning/top_seg_595/rtl/seg_dynamic.v
+FD:/FPGA-selfLearning/top_seg_595/rtl/seg_dynamic.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/FPGA-selfLearning/top_seg_595/rtl/seg_dynamic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA-selfLearning/top_seg_595/rtl|D:/FPGA-selfLearning/top_seg_595/rtl/seg_dynamic.v|
+!i113 1
+R5
+R6
+vtb_top_seg_595
+R1
+!i10b 1
+!s100 KnmT7hbC`DNAEloTNY=oJ0
+I?:L31^ma8hSP67CUgez7o3
+R2
+R0
+w1626716961
+8D:/FPGA-selfLearning/top_seg_595/quartus_prj/../sim/tb_top_seg_595.v
+FD:/FPGA-selfLearning/top_seg_595/quartus_prj/../sim/tb_top_seg_595.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/FPGA-selfLearning/top_seg_595/quartus_prj/../sim/tb_top_seg_595.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA-selfLearning/top_seg_595/quartus_prj/../sim|D:/FPGA-selfLearning/top_seg_595/quartus_prj/../sim/tb_top_seg_595.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+D:/FPGA-selfLearning/top_seg_595/quartus_prj/../sim
+vtop_seg_595
+R7
+!i10b 1
+!s100 Ve[W`o;^NCVj4bMLhZoUD1
+IomME_7ohOeI3`jNHce?bP0
+R2
+R0
+w1626714746
+8D:/FPGA-selfLearning/top_seg_595/rtl/top_seg_595.v
+FD:/FPGA-selfLearning/top_seg_595/rtl/top_seg_595.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/FPGA-selfLearning/top_seg_595/rtl/top_seg_595.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA-selfLearning/top_seg_595/rtl|D:/FPGA-selfLearning/top_seg_595/rtl/top_seg_595.v|
+!i113 1
+R5
+R6

@@ -1,0 +1,132 @@
+# do top_seg_595_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying D:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA-selfLearning/top_seg_595/rtl {D:/FPGA-selfLearning/top_seg_595/rtl/top_seg_595.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 01:55:02 on Jul 20,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA-selfLearning/top_seg_595/rtl" D:/FPGA-selfLearning/top_seg_595/rtl/top_seg_595.v 
+# -- Compiling module top_seg_595
+# 
+# Top level modules:
+# 	top_seg_595
+# End time: 01:55:02 on Jul 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/FPGA-selfLearning/top_seg_595/rtl {D:/FPGA-selfLearning/top_seg_595/rtl/seg_dynamic.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 01:55:02 on Jul 20,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA-selfLearning/top_seg_595/rtl" D:/FPGA-selfLearning/top_seg_595/rtl/seg_dynamic.v 
+# -- Compiling module seg_dynamic
+# 
+# Top level modules:
+# 	seg_dynamic
+# End time: 01:55:02 on Jul 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/FPGA-selfLearning/top_seg_595/rtl {D:/FPGA-selfLearning/top_seg_595/rtl/seg_595_dynamic.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 01:55:02 on Jul 20,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA-selfLearning/top_seg_595/rtl" D:/FPGA-selfLearning/top_seg_595/rtl/seg_595_dynamic.v 
+# -- Compiling module seg_595_dynamic
+# 
+# Top level modules:
+# 	seg_595_dynamic
+# End time: 01:55:02 on Jul 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/FPGA-selfLearning/top_seg_595/rtl {D:/FPGA-selfLearning/top_seg_595/rtl/hc595_ctrl.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 01:55:02 on Jul 20,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA-selfLearning/top_seg_595/rtl" D:/FPGA-selfLearning/top_seg_595/rtl/hc595_ctrl.v 
+# -- Compiling module hc595_ctrl
+# 
+# Top level modules:
+# 	hc595_ctrl
+# End time: 01:55:02 on Jul 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/FPGA-selfLearning/top_seg_595/rtl {D:/FPGA-selfLearning/top_seg_595/rtl/data_gen.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 01:55:03 on Jul 20,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA-selfLearning/top_seg_595/rtl" D:/FPGA-selfLearning/top_seg_595/rtl/data_gen.v 
+# -- Compiling module data_gen
+# 
+# Top level modules:
+# 	data_gen
+# End time: 01:55:03 on Jul 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/FPGA-selfLearning/top_seg_595/rtl {D:/FPGA-selfLearning/top_seg_595/rtl/bcd_8421.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 01:55:03 on Jul 20,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA-selfLearning/top_seg_595/rtl" D:/FPGA-selfLearning/top_seg_595/rtl/bcd_8421.v 
+# -- Compiling module bcd_8421
+# 
+# Top level modules:
+# 	bcd_8421
+# End time: 01:55:03 on Jul 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA-selfLearning/top_seg_595/quartus_prj/../sim {D:/FPGA-selfLearning/top_seg_595/quartus_prj/../sim/tb_top_seg_595.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 01:55:03 on Jul 20,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA-selfLearning/top_seg_595/quartus_prj/../sim" D:/FPGA-selfLearning/top_seg_595/quartus_prj/../sim/tb_top_seg_595.v 
+# -- Compiling module tb_top_seg_595
+# 
+# Top level modules:
+# 	tb_top_seg_595
+# End time: 01:55:03 on Jul 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_top_seg_595
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_top_seg_595 
+# Start time: 01:55:04 on Jul 20,2021
+# Loading work.tb_top_seg_595
+# Loading work.top_seg_595
+# Loading work.data_gen
+# Loading work.seg_595_dynamic
+# Loading work.seg_dynamic
+# Loading work.bcd_8421
+# Loading work.hc595_ctrl
+# ** Warning: (vsim-3015) D:/FPGA-selfLearning/top_seg_595/rtl/seg_595_dynamic.v(18): [PCDPC] - Port size (4) does not match connection size (6) for port 'sel'. The port definition is at: D:/FPGA-selfLearning/top_seg_595/rtl/seg_dynamic.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_seg_595/top_seg_595_inst/seg_595_dynamic_inst/seg_dynamic_inst File: D:/FPGA-selfLearning/top_seg_595/rtl/seg_dynamic.v
+# ** Warning: (vsim-3015) D:/FPGA-selfLearning/top_seg_595/rtl/seg_595_dynamic.v(30): [PCDPC] - Port size (4) does not match connection size (6) for port 'sel'. The port definition is at: D:/FPGA-selfLearning/top_seg_595/rtl/hc595_ctrl.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_seg_595/top_seg_595_inst/seg_595_dynamic_inst/hc595_ctrl_inst File: D:/FPGA-selfLearning/top_seg_595/rtl/hc595_ctrl.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 us
+# Can't move the Now cursor.
+add wave -position insertpoint sim:/tb_top_seg_595/top_seg_595_inst/data_gen_inst/*
+add wave -position insertpoint sim:/tb_top_seg_595/top_seg_595_inst/data_gen_inst/*
+run
+run
+restart
+run -continue
+run -all
+# Break key hit
+# Break in Module bcd_8421 in file D:/FPGA-selfLearning/top_seg_595/rtl/bcd_8421.v
+restart
+# ** Warning: (vsim-3015) D:/FPGA-selfLearning/top_seg_595/rtl/seg_595_dynamic.v(18): [PCDPC] - Port size (4) does not match connection size (6) for port 'sel'. The port definition is at: D:/FPGA-selfLearning/top_seg_595/rtl/seg_dynamic.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_seg_595/top_seg_595_inst/seg_595_dynamic_inst/seg_dynamic_inst File: D:/FPGA-selfLearning/top_seg_595/rtl/seg_dynamic.v
+# ** Warning: (vsim-3015) D:/FPGA-selfLearning/top_seg_595/rtl/seg_595_dynamic.v(30): [PCDPC] - Port size (4) does not match connection size (6) for port 'sel'. The port definition is at: D:/FPGA-selfLearning/top_seg_595/rtl/hc595_ctrl.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_seg_595/top_seg_595_inst/seg_595_dynamic_inst/hc595_ctrl_inst File: D:/FPGA-selfLearning/top_seg_595/rtl/hc595_ctrl.v
+run -all
+# GetModuleFileName: 找不到指定的模組。
+# 
+# 
+# Break key hit
+# Simulation stop requested.
+run -all
+# Break key hit
+# Break in Module seg_dynamic at D:/FPGA-selfLearning/top_seg_595/rtl/seg_dynamic.v line 45
+# End time: 01:58:54 on Jul 20,2021, Elapsed time: 0:03:50
+# Errors: 1, Warnings: 4
